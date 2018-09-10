@@ -14,6 +14,7 @@ var hitVal =0;
     	   $('#imgSrc').attr('src',data);
     		  }
     		  },
+    		  
     complete: function() {
     	hitVal = hitVal+1;
       setTimeout(worker, 30000);
